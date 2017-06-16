@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Drum Kit</title>
+	<link rel="stylesheet" href="drum-kit.css">
+</head>
+<body>
+	<div class="container">
+		<div data-key="65" class="square" id="A">
+			<div class="alpha">
+				A
+				<div class="subtext">Clap</div>
+			</div>
+		</div>
+		<div data-key="83" class="square" id="S">
+			<div class="alpha">
+				S
+				<div class="subtext">Hihat</div>
+			</div>
+		</div>
+		<div data-key="68" class="square" id="D">
+			<div class="alpha">
+				D
+				<div class="subtext">Kick</div>
+			</div>
+		</div>
+		<div data-key="70" class="square" id="F">
+			<div class="alpha">
+				F
+				<div class="sound subtext">Openhat</div>
+			</div>
+		</div>
+		<div data-key="71" class="square" id="G">
+			<div class="alpha">
+				G
+				<div class="sound subtext">Broom</div>
+			</div>
+		</div>
+		<div data-key="72" class="square" id="H">
+			<div class="alpha">
+				H
+				<div class="sound subtext">ride</div>
+			</div>
+		</div>
+		<div data-key="74" class="square" id="J">
+			<div class="alpha">
+				J
+				<div class="sound subtext">Snare</div>
+			</div>
+		</div>
+		<div data-key="75" class="square" id="K">
+			<div class="alpha">
+				K
+				<div class="sound subtext">Tom</div>
+			</div>
+		</div>
+		<div data-key="76" class="square" id="L">
+			<div class="alpha">
+				L
+				<div class="sound subtext">Tink</div>
+			</div>
+		</div>
+	</div>
+
+	<audio data-key="65" src="assets/sounds/boom.wav"></audio>
+	<audio data-key="83" src="assets/sounds/clap.wav"></audio>
+	<audio data-key="68" src="assets/sounds/hihat.wav"></audio>
+	<audio data-key="70" src="assets/sounds/kick.wav"></audio>
+	<audio data-key="71" src="assets/sounds/openhat.wav"></audio>
+	<audio data-key="72" src="assets/sounds/ride.wav"></audio>
+	<audio data-key="74" src="assets/sounds/snare.wav"></audio>
+	<audio data-key="75" src="assets/sounds/tink.wav"></audio>
+	<audio data-key="76" src="assets/sounds/tom.wav"></audio>
+	
+	<script type="text/javascript" src="drum-kit.js"></script>
+
+</body>
+</html>
